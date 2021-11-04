@@ -13,6 +13,9 @@ a {
 	width: 90%;
 	margin: 30px auto;
 }
+html {
+	scroll-behavior: smooth;
+}
 body {
 	font-family: 'Inter', sans-serif;
 	background-color: #B9B7BD;
