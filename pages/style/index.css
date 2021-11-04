@@ -20,6 +20,8 @@ body {
 	font-family: 'Inter', sans-serif;
 	background-color: #B9B7BD;
 	color: #E7D2CC;
+
+	min-width: 1200px;
 }
 .main {
 	display: flex;
@@ -504,39 +506,3 @@ footer h3 {
 }
 /* FOOTER */
 /* ARTICLE */
-
-@media screen and (max-width: 768px) {
-	aside h2 {
-	    font-size: 18px;
-	    line-height: 18px;
-	}
-	aside h2 span {
-	    font-size: 13px;
-	    line-height: 13px;
-	}
-	nav ul li a {
-	    font-size: 15px;
-	}
-	header h1 {
-	    font-size: 32px;
-	    line-height: 32px;
-	}
-	header h3 {
-	    font-size: 14px;
-	    line-height: 32px;
-	}
-	#resume h4 {
-	    font-size: 17px;
-	    line-height: 17px;
-	}
-}
-@media screen and (max-width: 425px) {
-	header h1 {
-	    font-size: 20px;
-	    line-height: 20px;
-	}
-	header h3 {
-	    font-size: 8px;
-	    line-height: 20px;
-	}
-}
